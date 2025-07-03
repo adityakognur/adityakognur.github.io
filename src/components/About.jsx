@@ -12,8 +12,7 @@ const About = () => {
 
   return (
     <div
-  className="bg-gradient-to-br from-black via-gray-900 to-blue-500 text-white px-6 py-12 flex flex-col"
-  style={{ height: "calc(100vh - 64px)" }}
+  className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-blue-500 text-white px-6 py-12 flex flex-col"
 >
   {/* Heading */}
   <motion.h1

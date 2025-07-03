@@ -2,8 +2,8 @@
   "name": "06react-router",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://adityakognur.github.io",
   "type": "module",
+  "homepage": "/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

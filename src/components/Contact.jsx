@@ -37,8 +37,8 @@ const contacts = [
 const Contact = () => {
   return (
     <div
-      className="bg-gradient-to-br from-gray-900 via-black to-blue-500 text-white px-6 py-12 flex flex-col overflow-hidden"
-      style={{ height: "calc(100vh - 64px)" }}
+      className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-blue-500 text-white px-6 py-12 flex flex-col"
+      
     >
       {" "}
       <h1 className="text-5xl font-bold text-cyan-400 text-center mb-12">

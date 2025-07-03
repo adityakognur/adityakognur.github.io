@@ -23,10 +23,8 @@ import Contact from "./Contact";
 
 const Home = () => {
   return (
-    <div
-      className="bg-gray-900 text-white p-4 sm:p-6"
-      style={{ height: "calc(100vh - 64px)" }}
-    >
+    <div className="min-h-screen bg-gray-900 text-white p-4 sm:p-6">
+
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
